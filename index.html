@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="login-container">
+        <h2 class="welcome">Welcome</h2>
+        <form action="#" class="login-form">
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="email"
+              placeholder="Enter email"
+              minlength="10"
+            />
+            <span class="msg-email">Invalid Email Address</span>
+          </div>
+          <div class="input-group">
+            <label for="password" class="password">Password</label>
+            <input
+              type="password"
+              class="password"
+              placeholder="Enter password"
+              minlength="8"
+            />
+            <span class="msg-password"
+              >Invalid Password (More than 8 characters required)</span
+            >
+          </div>
+          <button class="login-button">Login</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
